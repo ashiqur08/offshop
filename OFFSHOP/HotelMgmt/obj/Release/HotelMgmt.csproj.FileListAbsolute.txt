@@ -1,0 +1,14 @@
+E:\DotNetCore\Project2022\offshop\OFFSHOP\HotelMgmt\bin\HotelMgmt.dll.config
+E:\DotNetCore\Project2022\offshop\OFFSHOP\HotelMgmt\bin\HotelMgmt.dll
+E:\DotNetCore\Project2022\offshop\OFFSHOP\HotelMgmt\bin\HotelMgmt.pdb
+E:\DotNetCore\Project2022\offshop\OFFSHOP\HotelMgmt\bin\BusinessLayer.dll
+E:\DotNetCore\Project2022\offshop\OFFSHOP\HotelMgmt\bin\Entity.dll
+E:\DotNetCore\Project2022\offshop\OFFSHOP\HotelMgmt\bin\DataAccess.dll
+E:\DotNetCore\Project2022\offshop\OFFSHOP\HotelMgmt\bin\BusinessLayer.pdb
+E:\DotNetCore\Project2022\offshop\OFFSHOP\HotelMgmt\bin\Entity.pdb
+E:\DotNetCore\Project2022\offshop\OFFSHOP\HotelMgmt\bin\DataAccess.pdb
+E:\DotNetCore\Project2022\offshop\OFFSHOP\HotelMgmt\obj\Release\HotelMgmt.csprojAssemblyReference.cache
+E:\DotNetCore\Project2022\offshop\OFFSHOP\HotelMgmt\obj\Release\HotelMgmt.csproj.CoreCompileInputs.cache
+E:\DotNetCore\Project2022\offshop\OFFSHOP\HotelMgmt\obj\Release\HotelMgmt.csproj.CopyComplete
+E:\DotNetCore\Project2022\offshop\OFFSHOP\HotelMgmt\obj\Release\HotelMgmt.dll
+E:\DotNetCore\Project2022\offshop\OFFSHOP\HotelMgmt\obj\Release\HotelMgmt.pdb

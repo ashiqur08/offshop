@@ -1,0 +1,7 @@
+truncate table ProductMaster
+truncate table purchaseMaster
+truncate table purchaseDetails
+truncate table SaveProductMaster
+truncate table SaveProductDetails
+truncate table GodownStock
+truncate table GodownLastQty

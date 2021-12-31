@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{468E5110-767C-4576-8569-E1A1E78C21C1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Entity</RootNamespace>
+    <AssemblyName>Entity</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BillWiseSaleReport.cs" />
+    <Compile Include="Brand_Qty_wise_saleReport.cs" />
+    <Compile Include="Breakage.cs" />
+    <Compile Include="BreakageOffshop.cs" />
+    <Compile Include="BreakageReport.cs" />
+    <Compile Include="CatagoryWiseSaleReport.cs" />
+    <Compile Include="CreditorsWisePurReport.cs" />
+    <Compile Include="DateWiseDueReport.cs" />
+    <Compile Include="DateWiseSaleReport.cs" />
+    <Compile Include="DrinksPurchase.cs" />
+    <Compile Include="DueReceived.cs" />
+    <Compile Include="EditSalBill.cs" />
+    <Compile Include="ExiseReport.cs" />
+    <Compile Include="LoginUser.cs" />
+    <Compile Include="Master\BottlePerCase.cs" />
+    <Compile Include="Master\Creditor.cs" />
+    <Compile Include="Master\DueDetails.cs" />
+    <Compile Include="Master\EmployeeMaster.cs" />
+    <Compile Include="Master\GodownOpeningStock.cs" />
+    <Compile Include="Master\Ledger.cs" />
+    <Compile Include="Master\OffshopOpeningStock.cs" />
+    <Compile Include="Master\ProductCategoryMaster.cs" />
+    <Compile Include="Master\ProductMaster.cs" />
+    <Compile Include="Master\ProductSubCategoryMaster.cs" />
+    <Compile Include="Master\RollMaster.cs" />
+    <Compile Include="Master\UnitMaster.cs" />
+    <Compile Include="MeasureWiseReport.cs" />
+    <Compile Include="Measure_AllBrand_Wise_SaleReport.cs" />
+    <Compile Include="PegWiseReport.cs" />
+    <Compile Include="PrintBill.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PurchaseReport.cs" />
+    <Compile Include="Requition.cs" />
+    <Compile Include="SaleBill.cs" />
+    <Compile Include="SearchDrinksPurchase.cs" />
+    <Compile Include="SubCatagoryWiseReport.cs" />
+    <Compile Include="testing.cs" />
+    <Compile Include="UserPermision.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Entity.dll" />
+    <Content Include="bin\Debug\Entity.pdb" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
